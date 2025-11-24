@@ -5,6 +5,10 @@ import Fetch from './components/Fetch'
 import GlobalContextApi from './context/GlobalContextApi'
 import User from './components/user'
 import UseMemo from './components/UseMemo'
+import UseCallback from './components/UseCallback'
+import Reducer from './components/Reducer'
+import ControlledForms from './components/ControlledForms'
+import UncontrolledForms from './components/UncontrolledForms'
 // import Logger from './HOC/Logger'
 // import Hello from './HOC/Hello'
 
@@ -24,7 +28,11 @@ const App = () => {
         <User/>
       </GlobalContextApi> */}
       {/* <HelloWithLogger name = "Aditya" /> */}
-      <UseMemo /> 
+      {/* <UseMemo /> */}
+      {/* <UseCallback/> */}
+      {/* <Reducer/> */}
+      {/* <ControlledForms/> */}
+      <UncontrolledForms/>
     </>
   )
 }
