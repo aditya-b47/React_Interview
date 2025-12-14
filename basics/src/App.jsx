@@ -9,6 +9,7 @@ import UseCallback from './components/UseCallback'
 import Reducer from './components/Reducer'
 import ControlledForms from './components/ControlledForms'
 import UncontrolledForms from './components/UncontrolledForms'
+import Otp from './components/Otp'
 // import Logger from './HOC/Logger'
 // import Hello from './HOC/Hello'
 
@@ -32,7 +33,8 @@ const App = () => {
       {/* <UseCallback/> */}
       {/* <Reducer/> */}
       {/* <ControlledForms/> */}
-      <UncontrolledForms/>
+      {/* <UncontrolledForms/> */}
+      <Otp/>
     </>
   )
 }
